@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "description": "This is a generator for Structured Data types to be used with TypeScript.",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [],
   "author": "Sebastian Heitmann <me@sebastian-heitmann.dev>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
 }
