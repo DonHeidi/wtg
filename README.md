@@ -1,2 +1,2 @@
 # wtg
-A code generator for 
+This project is currently considered WiP.
