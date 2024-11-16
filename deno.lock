@@ -2,7 +2,11 @@
   "version": "4",
   "specifiers": {
     "jsr:@std/assert@1": "1.0.8",
+    "jsr:@std/fs@^1.0.5": "1.0.5",
     "jsr:@std/internal@^1.0.5": "1.0.5",
+    "jsr:@std/path@^1.0.7": "1.0.8",
+    "jsr:@std/path@^1.0.8": "1.0.8",
+    "jsr:@std/text@^1.0.8": "1.0.8",
     "npm:commitizen@^4.3.1": "4.3.1",
     "npm:cz-conventional-changelog@^3.3.0": "3.3.0"
   },
@@ -13,8 +17,20 @@
         "jsr:@std/internal"
       ]
     },
+    "@std/fs@1.0.5": {
+      "integrity": "41806ad6823d0b5f275f9849a2640d87e4ef67c51ee1b8fb02426f55e02fd44e",
+      "dependencies": [
+        "jsr:@std/path@^1.0.7"
+      ]
+    },
     "@std/internal@1.0.5": {
       "integrity": "54a546004f769c1ac9e025abd15a76b6671ddc9687e2313b67376125650dc7ba"
+    },
+    "@std/path@1.0.8": {
+      "integrity": "548fa456bb6a04d3c1a1e7477986b6cffbce95102d0bb447c67c4ee70e0364be"
+    },
+    "@std/text@1.0.8": {
+      "integrity": "40ba34caa095f393e78796e5eda37b8b4e2cc6cfd6f51f34658ad7487b1451e4"
     }
   },
   "npm": {
@@ -797,6 +813,14 @@
     },
     "members": {
       "packages/generator": {
+        "dependencies": [
+          "jsr:@std/assert@1",
+          "jsr:@std/fs@^1.0.5",
+          "jsr:@std/path@^1.0.8",
+          "jsr:@std/text@^1.0.8"
+        ]
+      },
+      "packages/utilities": {
         "dependencies": [
           "jsr:@std/assert@1"
         ]
