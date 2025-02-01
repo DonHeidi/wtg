@@ -1,7 +1,7 @@
-import { createIntermediaryGraph } from './builder.ts'
+import { createIntermediaryGraph } from '../intermediary/builder.ts'
 import { describe, it } from '@std/testing/bdd'
 import { expect } from '@std/expect'
-import type { SchemaEntity, SchemaProperty } from '../schema-retrieval/types.ts'
+import type { SchemaEntity, SchemaProperty } from '../../schema-retrieval/types.ts'
 
 describe('graph-building', () => {
   it('should create an intermediary graph', () => {

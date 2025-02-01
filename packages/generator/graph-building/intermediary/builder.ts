@@ -1,4 +1,4 @@
-import type { SchemaEntity, SchemaClass, SchemaProperty } from '../schema-retrieval/types.ts'
+import type { SchemaEntity, SchemaClass, SchemaProperty } from '../../schema-retrieval/types.ts'
 
 /**
  * Creates an intermediary graph from the given types and properties.
