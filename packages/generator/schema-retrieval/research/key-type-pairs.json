@@ -1,0 +1,238 @@
+[
+  {
+    "key": "@context",
+    "type": "object"
+  },
+  {
+    "key": "@graph",
+    "type": "array"
+  },
+  {
+    "key": "@id",
+    "type": "string"
+  },
+  {
+    "key": "@language",
+    "type": "string"
+  },
+  {
+    "key": "@type",
+    "type": "array"
+  },
+  {
+    "key": "@type",
+    "type": "string"
+  },
+  {
+    "key": "@value",
+    "type": "string"
+  },
+  {
+    "key": "brick",
+    "type": "string"
+  },
+  {
+    "key": "csvw",
+    "type": "string"
+  },
+  {
+    "key": "dcam",
+    "type": "string"
+  },
+  {
+    "key": "dcat",
+    "type": "string"
+  },
+  {
+    "key": "dcmitype",
+    "type": "string"
+  },
+  {
+    "key": "dc",
+    "type": "string"
+  },
+  {
+    "key": "dcterms",
+    "type": "string"
+  },
+  {
+    "key": "doap",
+    "type": "string"
+  },
+  {
+    "key": "foaf",
+    "type": "string"
+  },
+  {
+    "key": "odrl",
+    "type": "string"
+  },
+  {
+    "key": "org",
+    "type": "string"
+  },
+  {
+    "key": "owl:equivalentClass",
+    "type": "array"
+  },
+  {
+    "key": "owl:equivalentClass",
+    "type": "object"
+  },
+  {
+    "key": "owl:equivalentProperty",
+    "type": "object"
+  },
+  {
+    "key": "owl",
+    "type": "string"
+  },
+  {
+    "key": "prof",
+    "type": "string"
+  },
+  {
+    "key": "prov",
+    "type": "string"
+  },
+  {
+    "key": "qb",
+    "type": "string"
+  },
+  {
+    "key": "rdfs:comment",
+    "type": "object"
+  },
+  {
+    "key": "rdfs:comment",
+    "type": "string"
+  },
+  {
+    "key": "rdfs:label",
+    "type": "object"
+  },
+  {
+    "key": "rdfs:label",
+    "type": "string"
+  },
+  {
+    "key": "rdfs:subClassOf",
+    "type": "array"
+  },
+  {
+    "key": "rdfs:subClassOf",
+    "type": "object"
+  },
+  {
+    "key": "rdfs:subPropertyOf",
+    "type": "array"
+  },
+  {
+    "key": "rdfs:subPropertyOf",
+    "type": "object"
+  },
+  {
+    "key": "rdfs",
+    "type": "string"
+  },
+  {
+    "key": "rdf",
+    "type": "string"
+  },
+  {
+    "key": "schema:contributor",
+    "type": "array"
+  },
+  {
+    "key": "schema:contributor",
+    "type": "object"
+  },
+  {
+    "key": "schema:domainIncludes",
+    "type": "array"
+  },
+  {
+    "key": "schema:domainIncludes",
+    "type": "object"
+  },
+  {
+    "key": "schema:inverseOf",
+    "type": "object"
+  },
+  {
+    "key": "schema:isPartOf",
+    "type": "object"
+  },
+  {
+    "key": "schema:rangeIncludes",
+    "type": "array"
+  },
+  {
+    "key": "schema:rangeIncludes",
+    "type": "object"
+  },
+  {
+    "key": "schema:sameAs",
+    "type": "object"
+  },
+  {
+    "key": "schema:source",
+    "type": "array"
+  },
+  {
+    "key": "schema:source",
+    "type": "object"
+  },
+  {
+    "key": "schema:supersededBy",
+    "type": "object"
+  },
+  {
+    "key": "schema",
+    "type": "string"
+  },
+  {
+    "key": "sh",
+    "type": "string"
+  },
+  {
+    "key": "skos:closeMatch",
+    "type": "array"
+  },
+  {
+    "key": "skos:closeMatch",
+    "type": "object"
+  },
+  {
+    "key": "skos:exactMatch",
+    "type": "object"
+  },
+  {
+    "key": "skos",
+    "type": "string"
+  },
+  {
+    "key": "sosa",
+    "type": "string"
+  },
+  {
+    "key": "ssn",
+    "type": "string"
+  },
+  {
+    "key": "time",
+    "type": "string"
+  },
+  {
+    "key": "vann",
+    "type": "string"
+  },
+  {
+    "key": "void",
+    "type": "string"
+  },
+  {
+    "key": "xsd",
+    "type": "string"
+  }
+]

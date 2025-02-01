@@ -1,10 +1,10 @@
 import { ensureDirSync, ensureFileSync } from '@std/fs'
 import { join } from '@std/path'
-import type { SchemaEntity, SchemaClass, SchemaProperty } from './types.ts'
-import { IntermediaryType, IntermediaryProperty, Type } from './types.ts'
+import type { SchemaEntity, SchemaClass, SchemaProperty } from './types/types.ts'
+import { IntermediaryType, IntermediaryProperty, Type } from './types/types.ts'
 
 if (import.meta.main) {
-  const schema = await fetchSchemaOrgJsonld('https://schema.org/version/latest/schemaorg-all-https.jsonld')
+  const schema = await fetchSchemaOrgJsonld('https://schema.org/version/latest/schemaorg-current-https.jsonld')
   const [types, properties] = parseSchema(schema)
   const intermediaryTypes = compileSchema(types, properties)
   const typeGraph = compileIntermediaryGraph(intermediaryTypes)
